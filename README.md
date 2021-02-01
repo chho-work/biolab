@@ -8,7 +8,10 @@
 
 “In the case of large consumer Internet companies where you have billions of users, you have a lot of data, you don't worry about it. They just take the average and it kind of works. But in a case of other industry settings where we don't have big data, if just a small data, very small, maybe in the level of a hundred defective parts or a hundred examples of a defect.   If you have only one hundred examples, these little labeling errors, if 10 of your hundred labels are wrong, that actually is 10% .  That has a big impact so how do you clean this up what you're supposed to do?   This is an example of the of the types of things that my team in Landing AI are wrestling to deal with, small data which comes up all the time once you're outside consumer internet .”<br>
 
-[- Excerpt from "Andrew Ng: Deep Learning, Education, and Real-World AI | Lex Friedman Podcast #73";(31:31)](https://www.youtube.com/watch?v=0jspaMLxBig)<br>
+[-Excerpt from "Andrew Ng: Deep Learning, Education, and Real-World AI | Lex Friedman Podcast #73";(31:31)](https://www.youtube.com/watch?v=0jspaMLxBig)<br>
+
+<br>
+<br>
 
 As machine learning practitioner, moving from online courses to real world projects, my experiences so far has great resemblance with what Andrew Ng shared in Lex Friedman’s podcast.<br> 
 
@@ -16,11 +19,34 @@ In a recent project that I participated in the field of microbiology, one of the
 
 Antibiogram Test, is a widely used tool in microbiology to find the level of antimicrobial susceptibility. Part of this process consists of measuring "zone of inhibition", which is currently performed by clinicians manually using a "ruler" or "digital calliper".  In some way this is impractical and prone to error. For example, the tiny ruler number could lead to misreading.<br> 
 
-This repo contains the code to train a model to detect zone of inhibition and measure its size using Mask RCNN(Detectron2).  For more information on how to automate composite image creation please visit [this page](https://chho-work.github.io/syntheticReplica/).<br>
+This repo contains the code to train a model to detect zone of inhibition and measure its size using Mask RCNN(Detectron2).  For more information on how to automate composite image creation please visit **[this page](https://chho-work.github.io/syntheticReplica/)**.<br>
 
-Antibiogram profiles antibiotic resistance, it tests if a specific type or sub-types of pathogens is vulnerable to antibiotics. Antibiotics eliminates pathogens, different pathogens requires different antibiotics. Bacteria, viruses, fungi and parasites are pathogens that cause diseases.  These microorganisms can also mutate in ways that will render antibiotics used to cure the infections they cause ineffective.   Antibiogram report helps doctors to choose the correct antimicrobial treatment for the patient.  And in the event of urgent public health threat, antibiogram enable pathogen researchers in identifying and combating the spread of drug-resistant organisms.<br>
+## What is Antibiogram
+
+> **Antibiogram** is a toolkit widely used in hospital and medical laboratories to aid clinicians, epidemiologists, pharmacists and alike healthcare practitioners to detect and monitor trends in antimicrobial resistance and prevent infections.
+
+Antibiogram profiles antibiotic resistance, it tests if a specific type or sub-types of pathogens is vulnerable to antibiotics. Antibiotics eliminates pathogens, different pathogens requires different antibiotics. Bacteria, viruses, fungi and parasites are pathogens that cause diseases.  These microorganisms can also mutate in ways that will render antibiotics uased to cure the infections they cause ineffective.   Antibiogram report helps doctors to choose the correct antimicrobial treatment for the patient.  And in the event of urgent public health threat, antibiogram enable pathogen researchers in identifying and combating the spread of drug-resistant organisms.<br>
 
 The following image depicts a simplified antibiogram testing process for quick illustration(for additional information see reference below):<br>
+
+"At the patient level, a drug susceptibility report can be provided to the doctor to help choose the correct antibiotic. A sample from the patient is sent to the lab, where a technician tests it against a panel of antibiotics at various levels of concentration (to see how much of the drug is needed to kill the pathogen). Finally, the samples are observed for visible growth of the pathogen. They are looking for the Minimum Inhibitory Concentration (MIC), the lowest concentration of the drug that shows no pathogen growth."<br>
+
+"Depending on the pathogen/antibiotic combination, there are predetermined levels of concentration (think of this as a "dose") required to have the pathogen labeled as "susceptible". These are called breakpoints and serve as a boundary between the four possible labels: Susceptible, Susceptible - Dose Dependent, Intermediate, and Resistant. The final report will give the healthcare team vital information to help them choose the best antibiotic for their patient."<br>     
+
+**[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**
+
+**```
+Antibiogram (Diffusion Test)
+```**
+
+**```
+Different Types of Results 
+```**
+
+```
+This repo was built using the mighty "fastai nbdev".  I strongly recommend everyone to try it out!
+For additional information please see below reference.
+```
 
 ## References:
 
