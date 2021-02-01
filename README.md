@@ -29,20 +29,21 @@ Antibiogram profiles antibiotic resistance, it tests if a specific type or sub-t
 
 The following image depicts a simplified antibiogram testing process for quick illustration(for additional information see reference below):<br>
 
+
+
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/antibiogram-process.jpg?raw=True"/>
+
+
+
 "At the patient level, a drug susceptibility report can be provided to the doctor to help choose the correct antibiotic. A sample from the patient is sent to the lab, where a technician tests it against a panel of antibiotics at various levels of concentration (to see how much of the drug is needed to kill the pathogen). Finally, the samples are observed for visible growth of the pathogen. They are looking for the Minimum Inhibitory Concentration (MIC), the lowest concentration of the drug that shows no pathogen growth."<br>
 
 "Depending on the pathogen/antibiotic combination, there are predetermined levels of concentration (think of this as a "dose") required to have the pathogen labeled as "susceptible". These are called breakpoints and serve as a boundary between the four possible labels: Susceptible, Susceptible - Dose Dependent, Intermediate, and Resistant. The final report will give the healthcare team vital information to help them choose the best antibiotic for their patient."<br>     
 
-**[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**
+**[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**<br>
 
 ### Antibiogram (Diffusion Test)
 
-
-```python
-#hide_iput
-from IPython.display import Image 
-Image(url="https://github.com/chho-work/biolab/blob/main/assets/Agar_Diffusion_Method_1.jpg?raw=True")
-```
 
 
 
