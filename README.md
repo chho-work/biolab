@@ -35,13 +35,11 @@ The following image depicts a simplified antibiogram testing process for quick i
 
 **[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**
 
-**```
-Antibiogram (Diffusion Test)
-```**
+### Antibiogram (Diffusion Test)
 
-**```
-Different Types of Results 
-```**
+
+### Different Types of Results 
+
 
 ```
 This repo was built using the mighty "fastai nbdev".  I strongly recommend everyone to try it out!
