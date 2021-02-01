@@ -38,7 +38,27 @@ The following image depicts a simplified antibiogram testing process for quick i
 ### Antibiogram (Diffusion Test)
 
 
+```python
+#hide_iput
+from IPython.display import Image 
+Image(url="https://github.com/chho-work/biolab/blob/main/assets/Agar_Diffusion_Method_1.jpg?raw=True")
+```
+
+
+
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/Agar_Diffusion_Method_1.jpg?raw=True"/>
+
+
+
 ### Different Types of Results 
+
+
+
+
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/Agar_Diffusion_Method_2.jpg?raw=True"/>
+
 
 
 ```
