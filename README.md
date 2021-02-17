@@ -1,6 +1,4 @@
-**Under construction!!**
-Status: 20%
-Estimate completion: end of March 2021
+**Under construction!!**; Status: 20%; Estimate completion: end of March 2021
 
 
 # Computer Vision in Microbiology
