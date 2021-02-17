@@ -1,10 +1,10 @@
-# Computer Vision in Microbiology
-> Detecting Antimicrobial Disks and Zone of Inhibition with Detectron2
-
-
 **Under construction!!**
 Status: 20%
 Estimate completion: end of March 2021
+
+
+# Computer Vision in Microbiology
+> Detecting Antimicrobial Disks and Zone of Inhibition with Detectron2
 
 **_Detect, measure and classify Antibiogram. A training pipeline with composite images and Mask RCNN._**
 
