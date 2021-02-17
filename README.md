@@ -12,11 +12,6 @@
 
 <br>
 
-Inference Illustration
-
-<img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
-
-
 # Computer Vision in Microbiology
 > Detecting Antimicrobial Disks and Zone of Inhibition with Detectron2
 
@@ -57,6 +52,15 @@ The following image depicts a simplified antibiogram testing process for quick i
 "Depending on the pathogen/antibiotic combination, there are predetermined levels of concentration (think of this as a "dose") required to have the pathogen labeled as "susceptible". These are called breakpoints and serve as a boundary between the four possible labels: Susceptible, Susceptible - Dose Dependent, Intermediate, and Resistant. The final report will give the healthcare team vital information to help them choose the best antibiotic for their patient."<br>     
 
 **[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**<br>
+
+### Inference Illustration
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
+
+
+
+
+
 
 ### Antibiogram (Diffusion Test)
 
