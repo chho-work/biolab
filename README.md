@@ -10,6 +10,12 @@
     7. Vision Transformer
     8. Inference
 
+<br>
+
+Inference Illustration
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
+
 
 # Computer Vision in Microbiology
 > Detecting Antimicrobial Disks and Zone of Inhibition with Detectron2
