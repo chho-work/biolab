@@ -53,13 +53,6 @@ The following image depicts a simplified antibiogram testing process for quick i
 
 **[<img src="https://render.githubusercontent.com/render/math?math=EOS^{cu}" style="float:left;margin">](http://blog.eoscu.com/blog/what-is-an-antibiogram)**<br>
 
-### Inference Illustration
-
-<img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
-
-
-
-
 
 
 ### Antibiogram (Diffusion Test)
@@ -86,6 +79,12 @@ The following image depicts a simplified antibiogram testing process for quick i
 This repo was built using the mighty "fastai nbdev".  I strongly recommend everyone to try it out!
 For additional information please see below reference.
 ```
+
+## Inference Illustration
+
+<img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
+
+
 
 ## References:
 
