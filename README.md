@@ -75,16 +75,15 @@ The following image depicts a simplified antibiogram testing process for quick i
 
 
 
-```
-This repo was built using the mighty "fastai nbdev".  I strongly recommend everyone to try it out!
-For additional information please see below reference.
-```
-
 ## Inference Illustration
 
 <img src="https://github.com/chho-work/biolab/blob/main/assets/Inference-Output.jpg?raw=True"/>
 
 
+```
+This repo was built using the mighty "fastai nbdev".  I strongly recommend everyone to try it out!
+For additional information please see below reference.
+```
 
 ## References:
 
